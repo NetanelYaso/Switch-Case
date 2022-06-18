@@ -55,33 +55,44 @@
 
 // function elementPosition(){
 //     let mySelect = document.getElementById("select_id").value;
-//     let elementCircle = document.getElementById("my_div")
+//     let divCircle = document.getElementById("my_div")
 //     switch(mySelect){
 //         case "top-left":
-//             return elementCircle.style = "border-radius:50%; height:100px; width:100px; background: "+color_input.value+";"
+//             return divCircle.style = "border-radius:50%; height:100px; width:100px; background: "+color_input.value+";"
 //         case "top-right":
-//             return elementCircle.style = "float:right; border-radius:50%; height:100px; width:100px; background: "+color_input.value+";"
+//             return divCircle.style = "float:right; border-radius:50%; height:100px; width:100px; background: "+color_input.value+";"
 //         case "bottom-left":
-//             return elementCircle.style = "position:fixed; bottom:0; border-radius:50%; height:100px; width:100px; background: "+color_input.value+";"
+//             return divCircle.style = "position:fixed; bottom:0; border-radius:50%; height:100px; width:100px; background: "+color_input.value+";"
 //         case "bottom-right":
-//             return elementCircle.style = "position:absolute; bottom:0; right:0; border-radius:50%; height:100px; width:100px; background: "+color_input.value+";"
+//             return divCircle.style = "position:absolute; bottom:0; right:0; border-radius:50%; height:100px; width:100px; background: "+color_input.value+";"
+//         default:
+//             break;
+//     }
+// }
+
+
+// function jsCalculator(event){
+//     console.log(event)
+//     let myNumber=1;
+//     switch(myNumber){
+//         case "+":
+            
+//         case "-":
+
+//         case "*":
+
+//         case "/":
+
 //         default:
 //             break;
 //     }
 // }
 
 function jsCalculator(){
-    let myNumber=1;
-    switch(myNumber){
-        case "+":
-            
-        case "-":
+    let my_result = document.getElementById("resulte");
+    
 
-        case "*":
 
-        case "/":
 
-        default:
-            break;
-    }
 }
+

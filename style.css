@@ -1,5 +1,4 @@
-
-#calculeter{
+#container{
     display: grid;
     grid-template-areas: 
     'header header header header'
@@ -13,13 +12,13 @@
     border: 3px solid black;
 }
 
-#my_resulte{
+#resulte{
     grid-area: header;
     background-color: grey;
     color: aliceblue;
     text-align: right;
 }
 
-#equal_id{
+#equal{
     grid-area: sidebar;
-}
+}   
