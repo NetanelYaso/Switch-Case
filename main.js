@@ -71,22 +71,7 @@
 // }
 
 
-// function jsCalculator(event){
-//     console.log(event)
-//     let myNumber=1;
-//     switch(myNumber){
-//         case "+":
-            
-//         case "-":
 
-//         case "*":
-
-//         case "/":
-
-//         default:
-//             break;
-//     }
-// }
 
 
 
